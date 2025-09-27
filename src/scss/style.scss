@@ -1,0 +1,44 @@
+// Import all of Bootstrap’s CSS
+@import "bootstrap/scss/bootstrap";
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #e3f2fd;
+  margin: 0;
+}
+
+.weather-container {
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.weather-container input {
+  padding: 8px;
+  margin: 10px 0;
+  width: 200px;
+}
+
+.weather-container button {
+  padding: 8px 12px;
+  background: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.weather-container button:hover {
+  background: #1976d2;
+}
+
+.weather-result{
+  margin-top: 20px;
+  font-size: 18px;
+}
